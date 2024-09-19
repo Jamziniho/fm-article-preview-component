@@ -72,6 +72,28 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
+.open-share {
+  background-color:hsl(217, 19%, 35%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    padding: 1em;
+    display: flex;
+      li {
+        margin-right: 1em;
+      }
+  }
+  p {
+    color: hsl(214, 17%, 51%);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
